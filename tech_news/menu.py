@@ -9,4 +9,5 @@ output = ("""Selecione uma das opções a seguir:
 
 # Requisitos 11 e 12
 def analyzer_menu():
-    """Seu código deve vir aqui"""
+    options = input(output)
+    print(options)
